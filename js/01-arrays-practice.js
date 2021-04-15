@@ -219,18 +219,20 @@
 // console.log(completeMoviesList);
 
 //STEP 13
-// let movies = [['Casino', 1], ['Braveheart', 2], ['Good Fellas', 3], ['The Matrix', 4], ['Heat', 5]];
+// const movies = [['Casino', 1], ['Braveheart', 2], ['Good Fellas', 3], ['The Matrix', 4], ['Heat', 5]];
+// let newArray;
 
-// //let movieNames = movies.filter((item) => {
+// let stringsOnly = (val) => {
+//     if (typeof(val) === 'string') {
+//          console.log(val);
+//      }
+// }
+
 // movies.forEach((item) => {
-//     //return typeof item === 'number';
-//     //console.log(`${item[0]}`)
-//     movies.filter((item) => {
-//         ret
-//     });
-
+//     newArray = movies.filter(stringsOnly);
+//     console.log(item[0]);
 // });
-//console.log(movieNames); 
+
 
 //STEP 14
 // Define employee names display function
