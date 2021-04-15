@@ -78,24 +78,150 @@
 // Movies[5] = 'Scicario';
 // Movies[6] = 'Never Ending Story';
 
-// for (let i in Movies) {
-//     if (Movies.hasOwnProperty(i)) {
-//         //console.log(Movies[i]);
-//     }
+// Movies.sort();
+
+// for (let i of Movies) {
+//     console.log(i);
 // }
-// console.log(Movies.sort());
 
 //STEP 8
+// Copy the code from step 5. Under the existing array, create a new array called leastFavMovies. Populate the array with the 3 movies that you regret watching. Display both arrays within the console window so that it’s formatted to look like this 
+// let Movies = [];
+// Movies[0] = 'Casino'; 
+// Movies[1] = 'Braveheart';
+// Movies[2] = 'Good Fellas';
+// Movies[3] = 'The Matrix';
+// Movies[4] = 'Heat';
+// Movies[5] = 'Scicario';
+// Movies[6] = 'Never Ending Story';
+
+// let leastFavMovies = ['Vice', 'Once Upon a time', 'Judge Dredd'];
+
+// console.log('Movies I like:');
+// console.log('\n');
+
+// for (let i in Movies) {
+//     if (Movies.hasOwnProperty(i)) {
+//         console.log(Movies[i]);
+//     }
+// }
+
+// console.log('\n')
+// console.log('Movies I regret watching:')
+// console.log('\n');
+
+// for (let t in leastFavMovies) {
+//     if (leastFavMovies.hasOwnProperty(t)) {
+//         console.log(Movies[t]);
+//     }
+// }
 
 //STEP 9
+// Copy the code from step 8. Now, use the concat() method to merge the two arrays together into a single array called movies. Use the console window to display the list in reverse sorted order
+// let Movies = [];
+// Movies[0] = 'Casino'; 
+// Movies[1] = 'Braveheart';
+// Movies[2] = 'Good Fellas';
+// Movies[3] = 'The Matrix';
+// Movies[4] = 'Heat';
+// Movies[5] = 'Scicario';
+// Movies[6] = 'Never Ending Story';
+
+// let leastFavMovies = ['Vice', 'Once Upon a time', 'Judge Dredd'];
+
+// // CONCAT BOTH ARRAYS
+// let completeMoviesList = Movies.concat(leastFavMovies);
+// // SORT AND REVERSE
+// completeMoviesList.sort();
+// completeMoviesList.reverse();
+
+// // DISPLAY TO CONSOLE
+// console.log(completeMoviesList);
 
 //STEP 10
+// Copy the code from step 9. Use an array function to return just the last item in the array and display it within the console window.
+// let Movies = [];
+// Movies[0] = 'Casino'; 
+// Movies[1] = 'Braveheart';
+// Movies[2] = 'Good Fellas';
+// Movies[3] = 'The Matrix';
+// Movies[4] = 'Heat';
+// Movies[5] = 'Scicario';
+// Movies[6] = 'Never Ending Story';
+
+// let leastFavMovies = ['Vice', 'Once Upon a time', 'Judge Dredd'];
+
+// // CONCAT BOTH ARRAYS
+// let completeMoviesList = Movies.concat(leastFavMovies);
+// // SORT AND REVERSE
+// completeMoviesList.sort();
+// completeMoviesList.reverse();
+
+// // FIND LENGTH OF ARRAY
+// let indexOfLastMovie = completeMoviesList.length; 
+
+// // DISPLAY LAST ARRAY ITEM TO CONSOLE
+// console.log(completeMoviesList[indexOfLastMovie-1]);
 
 //STEP 11
+// Copy the code from step 10. Remove the previous method and this time use a method to return just the first item in the array and display it within the console window.
+// let Movies = [];
+// Movies[0] = 'Casino'; 
+// Movies[1] = 'Braveheart';
+// Movies[2] = 'Good Fellas';
+// Movies[3] = 'The Matrix';
+// Movies[4] = 'Heat';
+// Movies[5] = 'Scicario';
+// Movies[6] = 'Never Ending Story';
+
+// let leastFavMovies = ['Vice', 'Once Upon a time', 'Judge Dredd'];
+
+// // CONCAT BOTH ARRAYS
+// let completeMoviesList = Movies.concat(leastFavMovies);
+// // SORT AND REVERSE
+// completeMoviesList.sort();
+// completeMoviesList.reverse();
+
+// // DISPLAY FIRST ITEM TO CONSOLE
+// console.log(completeMoviesList[0]);
 
 //STEP 12
+// Programmatically retrieve the movies in your array that you do not like and return their indices. Then, using those indices, programmatically add movies that you do like. 
+// let Movies = [];
+// Movies[0] = 'Casino'; 
+// Movies[1] = 'Braveheart';
+// Movies[2] = 'Good Fellas';
+// Movies[3] = 'The Matrix';
+// Movies[4] = 'Heat';
+// Movies[5] = 'Scicario';
+// Movies[6] = 'Never Ending Story';
+
+// let leastFavMovies = ['Vice', 'Once Upon a time', 'Judge Dredd'];
+// let addFavMovies = ['Tropic Thunder', 'Bad Boys', 'Avatar'];
+
+// // CONCAT BOTH ARRAYS
+// let completeMoviesList = Movies.concat(leastFavMovies);
+// // SORT AND REVERSE
+// completeMoviesList.sort();
+// completeMoviesList.reverse();
+
+// t = 0;
+
+// for (let i in completeMoviesList) {
+//     if (completeMoviesList.hasOwnProperty(i)) {
+//         let targetIndice = completeMoviesList.indexOf(leastFavMovies[i]);
+//         completeMoviesList.splice(targetIndice,1,addFavMovies[t]);
+//     }
+//     // INCREASE NEW FAV MOVIE LIST INDICE BY 1
+//     t++;
+// }
+
+// console.log(completeMoviesList);
 
 //STEP 13
+movies = [["Casino", 1], ["Braveheart", 2], ["Good Fellas", 3], ["The Matrix", 4], ["Heat", 5]];
+
+
 
 //STEP 14
 
