@@ -219,14 +219,74 @@
 // console.log(completeMoviesList);
 
 //STEP 13
-movies = [["Casino", 1], ["Braveheart", 2], ["Good Fellas", 3], ["The Matrix", 4], ["Heat", 5]];
+// let movies = [['Casino', 1], ['Braveheart', 2], ['Good Fellas', 3], ['The Matrix', 4], ['Heat', 5]];
 
+// //let movieNames = movies.filter((item) => {
+// movies.forEach((item) => {
+//     //return typeof item === 'number';
+//     //console.log(`${item[0]}`)
+//     movies.filter((item) => {
+//         ret
+//     });
 
+// });
+//console.log(movieNames); 
 
 //STEP 14
+// Define employee names display function
+// function displayEmployees (arrEmp) {
+//     console.log("Employees:\n\n");
+
+//     for (let t in arrEmp) {
+//         if (arrEmp.hasOwnProperty(t)) {
+//             console.log(arrEmp[t]);
+//         }
+//     }
+// }
+// // Define employee array
+// let arrEmployees = ['ZAK', 'JESSICA', 'MARK', 'FRED', 'SALLY'];
+
+// // Call funciton display employee names. Pass it employee array
+// displayEmployees(arrEmployees);
+
 
 //STEP 15
+// Write a JavaScript function to filter false, null, 0 and blank values from an array
+//Test Data: console.log(filterValues([58, '', 'abcd', true, null, false, 0]));
+//Expected Result: [58, "abcd", true]
+// function filter_array_values(arr) {
+//     arr = arr.filter(isEligible);
+//     return arr;
+//   }
+  
+//   function isEligible(value) {
+//     if(value !== false || value !== null || value !== 0 || value !== "") {
+//       return value;
+//     }
+//   }
+  
+//   console.log(filter_array_values([58, '', 'abcd', true, null, false, 0]));
 
 //STEP 16
+// Write a JavaScript function to get a random item from an array
+// function getRandomItem(arr) {
+//     // get random index value
+//     const randomIndex = Math.floor(Math.random() * arr.length);
+
+//     // get random item
+//     const item = arr[randomIndex];
+
+//     return item;
+// }
+
+// const array = [1, 'hello', 5, 'what?'];
+
+// const result = getRandomItem(array);
+// console.log(result);
 
 //STEP 17
+// Write a JavaScript function to get the largest number from a numeric array
+// let array = [-1, 0, 3, 100, 99, 2, 99];
+
+// console.log(Math.max.apply({}, array));
+
